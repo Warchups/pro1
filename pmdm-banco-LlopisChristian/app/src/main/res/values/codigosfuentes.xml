@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fuente">
+        <item>Helvetica Children</item>
+        <item>Times New Roman</item>
+        <item>Arial</item>
+        <item>Dark Calibri</item>
+        <item>Gothic</item>
+    </string-array>
+    <string-array name="codigofuente">
+        <item>helvetica</item>
+        <item>times_new_roman</item>
+        <item>arial</item>
+        <item>calibri</item>
+        <item>gothic</item>
+    </string-array>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pmm.simarro.pmdm_banco_llopischristian.AnadirCajero" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include android:id="@+id/toolbarAnadirCajeros"
+            layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_below="@+id/toolbarAnadirCajeros">
+
+
+            <TextView
+                android:id="@+id/label_direccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <EditText
+                android:id="@+id/direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/label_direccion"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/label_latitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/direccion"
+                android:text="Latitud:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <EditText
+                android:id="@+id/latitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/label_latitud"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/label_longitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/latitud"
+                android:text="Longitud:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <EditText
+                android:id="@+id/longitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/label_longitud"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/label_zoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/longitud"
+                android:text="Zoom:"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <EditText
+                android:id="@+id/zoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/label_zoom"
+                android:ems="10" />
+
+            <LinearLayout
+                android:id="@+id/botonera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/zoom"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+                <Button
+                    android:id="@+id/boton_cancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancelar" />
+                <Button
+                    android:id="@+id/boton_guardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guardar" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</ScrollView>

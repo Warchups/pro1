@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MAZE BANK</string>
+    <string name="inicio">Start</string>
+    <string name="contrasenaActual">Current password:</string>
+    <string name="contrasenaNueva">New password:</string>
+    <string name="repContrasena">Repeat password:</string>
+    <string name="confirmar">Confirm</string>
+    <string name="atras">Back</string>
+    <string name="salir">Get Out</string>
+    <string name="iniciarSesion">Log In</string>
+    <string name="cuentaOrigen">Root account:</string>
+    <string name="cuentaDestino">Destination account:</string>
+    <string name="cuentaMia">My account</string>
+    <string name="cuentaAjena">Alien account</string>
+    <string name="importe">Amount:</string>
+    <string name="justificante">Send proof</string>
+    <string name="cancelar">Cancel</string>
+    <string name="saldo">Balance:</string>
+    <string name="eligeCuenta">Choose an account:</string>
+
+    <string name="posicionGlobal">Global Position</string>
+    <string name="cajerosCercanos">Nearby ATMs</string>
+    <string name="transferencias">Transfers</string>
+    <string name="ingresos">Income</string>
+    <string name="cambiarClave">Change Password</string>
+    <string name="cerrarSesion">Log out</string>
+    <string name="configuracion">Config</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

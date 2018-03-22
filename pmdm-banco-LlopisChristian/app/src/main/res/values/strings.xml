@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MAZE BANK</string>
+    <string name="inicio">Inicio</string>
+    <string name="contrasenaActual">Contraseña actual:</string>
+    <string name="contrasenaNueva">Nueva contraseña:</string>
+    <string name="repContrasena">Repetir contraseña:</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="atras">Atras</string>
+    <string name="salir">Salir</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="cuentaOrigen">Cuenta Origen:</string>
+    <string name="cuentaDestino">Cuenta Destino:</string>
+    <string name="cuentaMia">Cuenta Mía</string>
+    <string name="cuentaAjena">Cuenta Ajena</string>
+    <string name="importe">Importe:</string>
+    <string name="justificante">Enviar Justificante</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="saldo">Saldo:</string>
+    <string name="eligeCuenta">Elige una cuenta:</string>
+
+    <string name="posicionGlobal">Posición Global</string>
+    <string name="cajerosCercanos">Cajeros Cercanos</string>
+    <string name="transferencias">Transferencias</string>
+    <string name="ingresos">Ingresos</string>
+    <string name="cambiarClave">Cambiar Clave</string>
+    <string name="cerrarSesion">Cerrar Sesión</string>
+    <string name="configuracion">Configuración</string>
+    <string name="gestion_cajeros">Gestión de cajeros</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_nuevo">Nuevo</string>
+    <string name="menu_eliminar">Eliminar</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_guardar">Guardar</string>
+    <string name="menu_cancelar">Cancelar</string>
+</resources>

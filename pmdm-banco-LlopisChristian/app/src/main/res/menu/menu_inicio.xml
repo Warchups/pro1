@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Menu">
+
+    <item android:id="@+id/action_posicionGlobal"
+        android:title="@string/posicionGlobal"
+        android:icon="@drawable/posicionglobal"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_cajerosCercanos"
+        android:title="@string/cajerosCercanos"
+        android:icon="@drawable/cajeroscercanos"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_tranferencias"
+        android:title="@string/transferencias"
+        android:icon="@drawable/transferencias"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_ingresos"
+        android:title="@string/ingresos"
+        android:icon="@drawable/ingresar"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_cambiarClave"
+        android:title="@string/cambiarClave"
+        android:icon="@drawable/cambiarclave"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_cerrarSesion"
+        android:title="@string/cerrarSesion"
+        android:icon="@drawable/salir"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_configuracion"
+        android:title="@string/configuracion"
+        android:icon="@drawable/config"
+        app:showAsAction="never" />
+
+</menu>

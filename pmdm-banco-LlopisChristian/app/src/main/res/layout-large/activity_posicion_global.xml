@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo7"
+    android:orientation="vertical"
+    tools:context="com.pmm.simarro.pmdm_banco_llopischristian.PosicionGlobal">
+
+    <fragment
+        android:id="@+id/fragmentPosicionGlobal"
+        android:name="com.pmm.simarro.pmdm_banco_llopischristian.Fragments.PosicionGlobalFragment"
+        class="com.pmm.simarro.pmdm_banco_llopischristian.Fragments.PosicionGlobalFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/fragmentMovimientos"
+        android:name="com.pmm.simarro.pmdm_banco_llopischristian.Fragments.MovimientosFragment"
+        class="com.pmm.simarro.pmdm_banco_llopischristian.Fragments.MovimientosFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        tools:layout_editor_absoluteX="600dp"
+        tools:layout_editor_absoluteY="887dp" />
+</LinearLayout>

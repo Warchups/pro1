@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="origen">
+        <item>Base de datos local</item>
+        <item>Servicio web</item>
+    </string-array>
+    <string-array name="codigoorigen">
+        <item>LOCAL</item>
+        <item>WEB</item>
+    </string-array>
+</resources>

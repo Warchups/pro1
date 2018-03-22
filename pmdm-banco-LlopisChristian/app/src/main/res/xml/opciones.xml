@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Bienvenida">
+
+        <EditTextPreference
+            android:key="saludo"
+            android:title="Saludo"
+            android:summary="¿Como quieres que te salude la aplicación?"
+            android:dialogTitle="Indica el saludo"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Multimedia">
+
+        <CheckBoxPreference
+            android:title="Música"
+            android:key="reproducirMusica"
+            android:summary="Escuchar la música mientras se ejecuta la aplicación" />
+
+        <CheckBoxPreference
+            android:title="Video de Bienvenida"
+            android:key="reproducirVideo"
+            android:summary="Reproducir video de bienvenida al iniciar la aplicación" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Idiomas y divisas">
+
+        <ListPreference
+            android:key="idioma"
+            android:title="Idioma"
+            android:summary="Idioma de la aplicación"
+            android:dialogTitle="Indicar el idioma de la aplicación"
+            android:entries="@array/idioma"
+            android:entryValues="@array/codigoidioma" />
+
+        <MultiSelectListPreference
+            android:key="divisasPref"
+            android:title="Divisas"
+            android:summary="Divisas que quieres utilizar"
+            android:dialogTitle="Indicar las divisas que quieres utilizar"
+            android:entries="@array/divisa"
+            android:entryValues="@array/codigodivisa" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Apariencia">
+
+        <ListPreference
+            android:key="tipoLetra"
+            android:title="Tipo de letra"
+            android:summary="Fuente del texto de los botones"
+            android:dialogTitle="Indica una fuente"
+            android:entries="@array/fuente"
+            android:entryValues="@array/codigofuente"/>
+
+        <ListPreference
+            android:key="color"
+            android:title="Color de los botones"
+            android:summary="Color de los botones"
+            android:dialogTitle="Indica un color"
+            android:entries="@array/color"
+            android:entryValues="@array/codigocolor"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Otros">
+
+        <ListPreference
+            android:key="origenDatos"
+            android:title="Base de Datos"
+            android:summary="Origen de la base de datos"
+            android:dialogTitle="Indicar el origen de los datos"
+            android:entries="@array/origen"
+            android:entryValues="@array/codigoorigen"/>
+            <!--android:defaultValue="LOCAL"-->
+
+        <CheckBoxPreference
+            android:title="Usar valores por defecto"
+            android:key="valoresDefecto"
+            android:summary="Usar los valores por defecto" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

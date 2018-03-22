@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color">
+        <item>Verde</item>
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Naranja</item>
+        <item>Rosa</item>
+    </string-array>
+    <string-array name="codigocolor">
+        <item>green</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>orange</item>
+        <item>pink</item>
+    </string-array>
+</resources>
